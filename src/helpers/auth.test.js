@@ -18,7 +18,7 @@ describe("loginHandler", () => {
   it("returns a JWT token if the user credentials are correct", async () => {
     // Mock the request and response objects
     const req = { body: { email: "test@test.com", password: "password" } };
-    const res = { json: jest.fn() };
+    const res = { status: jest.fn().mockReturnThis(), json: jest.fn() };
 
     User.findOne.mockResolvedValueOnce({
       _id: "test-id",
