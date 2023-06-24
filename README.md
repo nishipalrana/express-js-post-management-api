@@ -1,10 +1,10 @@
+[![Node.js CI](https://github.com/nishipalrana/express-js-post-management-api/actions/workflows/node.js.yml/badge.svg)](https://github.com/nishipalrana/express-js-post-management-api/actions/workflows/node.js.yml)
 # Post Management API
 #### Author: Nishipal Rana
 #### Name: Express-post-app
 #### Version: 1.0.0
 #### Description: Nodejs+MongoDb Express Post Management API 
 #### Main File: `src/app.js`
-
 <br>
 
 -------
