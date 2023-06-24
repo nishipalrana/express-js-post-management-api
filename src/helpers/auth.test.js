@@ -14,9 +14,6 @@ const UserMock = {
   profilePicture: Buffer.from("test"),
 };
 
-// Set the variables
-process.env.JWT_SECRET = 'jwt-secret-key';
-
 describe("loginHandler", () => {
   it("returns a JWT token if the user credentials are correct", async () => {
     // Mock the request and response objects
